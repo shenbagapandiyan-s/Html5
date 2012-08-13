@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="50" lt="48" ts="1344860109250" s="true" lb="HTML5Widget_FrameWork" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="19428"/>
+<httpSample t="13" lt="13" ts="1344860109328" s="true" lb="HTML5Widget_FrameWork" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="19428"/>
+<httpSample t="12" lt="12" ts="1344860110203" s="true" lb="HTML5Widget_FrameWork" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="19428"/>
+<httpSample t="19" lt="17" ts="1344860110219" s="true" lb="HTML5Widget_FrameWork" rc="200" rm="OK" tn="Thread Group 1-2" dt="text" by="19428"/>
+
+</testResults>

@@ -1,0 +1,54 @@
+<environments>
+    
+
+
+<environment default="true" desc="Production Environment is used for Development purpose only" name="Production">
+        <Server appliesTo="tech-html5-widget" desc="" name="Svr">
+            <protocol>http</protocol>
+            <host>localhost</host>
+            <port>8080</port>
+            <admin_username/>
+            <admin_password/>
+            <remoteDeployment>false</remoteDeployment>
+            <certificate/>
+            <type>Apache Tomcat</type>
+            <version>7.0.x</version>
+            <deploy_dir>D:\apache-tomcat-7.0.26\webapps</deploy_dir>
+            <context>y1.5</context>
+            <additional_context>/</additional_context>
+        </Server>
+    <WebService appliesTo="tech-html5-widget" desc="" name="Wsvz">
+            <protocol>http</protocol>
+            <host>localhost</host>
+            <port>8880</port>
+            <username/>
+            <password/>
+            <context>Njs</context>
+        </WebService>
+    </environment>
+
+<environment default="false" desc="" name="Stage">
+        <Server appliesTo="tech-html5-widget" desc="" name="Stageserver">
+            <protocol>http</protocol>
+            <host>localhost</host>
+            <port>8080</port>
+            <admin_username/>
+            <admin_password/>
+            <remoteDeployment>false</remoteDeployment>
+            <certificate/>
+            <type>Apache Tomcat</type>
+            <version>7.0.x</version>
+            <deploy_dir>D:\apache-tomcat-7.0.26\webapps</deploy_dir>
+            <context>stgserver</context>
+            <additional_context>/</additional_context>
+        </Server>
+    <WebService appliesTo="tech-html5-widget" desc="" name="StgWS ">
+            <protocol>http</protocol>
+            <host>localhost</host>
+            <port>8880</port>
+            <username/>
+            <password/>
+            <context>Njs</context>
+        </WebService>
+    </environment>
+</environments>
